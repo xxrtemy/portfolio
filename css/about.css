@@ -1,0 +1,36 @@
+.about-container{
+    margin: 0px 120px 170px 120px;
+    padding-top: 170px;
+}
+.about-title{
+    font-size: 76px;
+    font-weight: 700;
+    margin-bottom: 90px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+.about-text{
+    font-weight: 300;
+    font-size: 36px;
+}
+.about-text span{
+    color: #7fb789;
+}
+
+.about-card {
+    min-width: 25vh;
+    height: 25vh;
+}
+.about-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+}

@@ -1,0 +1,52 @@
+.contacts-container{
+    background-color: #7fb789;
+}
+.contacts-title{
+    font-size: 76px;
+    font-weight: 700;
+    margin: 90px 120px;
+    padding-top: 90px;
+    color: #303030;
+}
+.contacts-text{
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    color: #303030;
+}
+.contacts-links{
+    padding: 80px 120px 80px 120px;
+}
+.contacts-list{
+    display: grid;
+    row-gap: 50px;
+    justify-self: center;
+    align-items: center;
+}
+.social-link{
+    padding-left: 70px;
+    background-position: left center;
+    background-size: 24%;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    color: #303030;
+}
+.telegram{
+    background-image: url("../img/contacts/telegram-fill-svgrepo-com.svg");
+}
+.discord{
+    background-image: url("../img/contacts/discord-svgrepo-com.svg");
+    background-size: 22%;
+}
+.vk{
+    background-image: url("../img/contacts/vk-svgrepo-com.svg");
+    background-size: 13%;
+}
+.instagram{
+    background-image: url("../img/contacts/instagram-svgrepo-com.svg");
+    background-size: 12%;
+}
+.email{
+    background-image: url("../img/contacts/mail-svgrepo-com.svg");
+    background-size: 7%;
+}

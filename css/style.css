@@ -1,0 +1,20 @@
+@import "./reset.css";
+@import "./header.css";
+@import "./promo.css";
+@import "./about.css";
+@import "./projects.css";
+@import "./contacts.css";
+@import "./media.css";
+
+
+html {
+    scroll-behavior: smooth;
+}
+*{
+    font-family: Rubik;
+    color: white;
+}
+body{
+    background: #303030;
+}
+

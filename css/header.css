@@ -1,0 +1,32 @@
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 120px 70px 120px;
+    align-items: center;
+}
+.logo-first{
+    font-weight: 700;
+    font-size: 72px;
+    color: #7fb789;
+}
+.logo-second{
+    font-weight: 500;
+    font-size: 72px;
+}
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+.nav-item{
+    font-size: 44px;
+    font-weight: 500;
+}
+.nav-btn{
+    display: none;
+}
+.nav-btn img{
+    max-height: 65px;
+    max-width: 65px;
+}
