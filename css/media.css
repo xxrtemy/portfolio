@@ -464,10 +464,10 @@
         padding: 40px 30px;
         top: 0px;
         bottom: 70%;
-        right: 0px;
+        right: 0;
         left: 0;
         background-color: #7fb789;
-        border-radius: 10px;
+        border-radius: 0px 0px 30px 30px;
         font-weight: 700;
     }
     .nav-list{
@@ -475,7 +475,7 @@
         gap: 15px;
     }
     .nav-item{
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 500;
     }
     .nav-btn{
@@ -487,12 +487,6 @@
     }
     .header-nav.open .nav-btn{
         position: fixed;
-    }
-    .header-nav.open .nav-list{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-
     }
     .nav-btn img{
         max-width: 45px;
