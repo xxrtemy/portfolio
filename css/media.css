@@ -459,6 +459,7 @@
     .header-nav.open .nav-list{
         display: flex;
         flex-direction: column;
+        flex-wrap: nowrap;
         row-gap: 25px;
         position: fixed;
         padding: 40px 30px;
